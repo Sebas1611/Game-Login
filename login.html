@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro y Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Incluir el archivo CSS de SweetAlert -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.7/dist/sweetalert2.min.css">
+
+<!-- Incluir el archivo JS de SweetAlert -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.7/dist/sweetalert2.min.js"></script>
+
+</head>
+<body>
+
+    <div class="container">
+        <h1>Formulario</h1>
+            
+            <!-- Formulario de Login -->
+            <div class="form-login">
+                <h2>Iniciar Sesión</h2>
+                <form action="login.php" method="POST">
+                    <input type="text" name="username" placeholder="Nombre de usuario" required>
+                    <input type="password" name="password" placeholder="Contraseña" required>
+                    <button type="submit">Iniciar sesión</button>
+                </form>
+
+                <button class="REGISTRAR"; onclick="Register()">Registrar</button>
+            </div>
+        </div>
+    </div>
+    <script src="log.js"></script>
+</body>
+
+</html>

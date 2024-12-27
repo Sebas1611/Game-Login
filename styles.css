@@ -1,0 +1,100 @@
+/* Estilos globales */
+body {
+    background-image:url("Juego/Imagenes/matematicas.jpg");
+    font-family: Arial, sans-serif;
+    color: #dadae2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%;
+    max-width: 700px;
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(199, 193, 193, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    
+    
+    
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* Contenedor de los formularios */
+.form-container {
+    display: flex; /* Usamos Flexbox para las columnas */
+    justify-content: space-around; /* Para que los formularios estén en columnas */
+    width: 100%;
+    gap: 2px; /* Espacio entre las columnas */
+}
+
+/* Estilo de cada formulario */
+.form-register, .form-login {
+    width: 40%; /* Cada formulario ocupa el 45% del ancho disponible */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/* Estilo de los formularios */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Estilo de los campos de entrada */
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo del botón */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    backdrop-filter: blur(20px);
+    background-color: rgb(92, 92, 122);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #491d9b;
+}
+
+/* Mensajes */
+.message {
+    color: green;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}

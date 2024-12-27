@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro y Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="log.js">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Formulario</h1>
+        
+        <div class="form-container">
+            <!-- Formulario de Registro -->
+            <div class="form-register">
+                <h2>Registro</h2>
+                <form action="register.php" method="POST">
+                    <input type="text" name="username" placeholder="Nombre de usuario" required>
+                    <input type="email" name="email" placeholder="Correo electrónico" required>
+                    <input type="password" name="password" placeholder="Contraseña" required>
+                    <button type="submit">Registrarse</button>
+                </br>
+                    
+        
+                </form>
+                <button class="log" onclick="Logg()">Ingresar</button>
+                
+            </div>        
+        </div>
+    </div>
+
+<script src="log.js"></script>
+</body>
+</html>
